@@ -20,7 +20,7 @@ TFで取得したフライトログを残しときます
 - 2021年5月8日 @笠岡
 - 滑走 7+2+4本、ジャンプ1本
 
-[生データ](https://github.com/KUBTSSAvionics/TF_FlightLog/blob/main/210508_3rd_TF/raw)
-[csv](https://github.com/KUBTSSAvionics/TF_FlightLog/blob/main/210508_3rd_TF/csv)
+[生データ](https://github.com/KUBTSSAvionics/TF_FlightLog/blob/main/210508_3rd_TF/raw)  
+[csv](https://github.com/KUBTSSAvionics/TF_FlightLog/blob/main/210508_3rd_TF/csv)  
 [グラフ](https://github.com/KUBTSSAvionics/TF_FlightLog/blob/main/210508_3rd_TF/graph)
 
