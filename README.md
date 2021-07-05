@@ -22,5 +22,15 @@ TFで取得したフライトログを残しときます
 
 [生データ](https://github.com/KUBTSSAvionics/TF_FlightLog/blob/main/210508_3rd_TF/raw)  
 [csv](https://github.com/KUBTSSAvionics/TF_FlightLog/blob/main/210508_3rd_TF/csv)  
-[グラフ](https://github.com/KUBTSSAvionics/TF_FlightLog/blob/main/210508_3rd_TF/graph)
+[グラフ](https://github.com/KUBTSSAvionics/TF_FlightLog/blob/main/210508_3rd_TF/graph)  
 
+
+## 4thTF
+- 2021年6月20日 @泉大津
+- データなし  
+
+## 5thTF
+- 2021年7月7日 @笠岡
+- 滑走 3本、ジャンプ4本
+
+[生データ](https://github.com/KUBTSSAvionics/TF_FlightLog/blob/main/210704_5th_TF/raw)  
