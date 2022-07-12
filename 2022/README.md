@@ -2,5 +2,10 @@
 
 ## 1stTF
 - 2022年6月19日 @笠岡
+- 滑走 4本 + ジャンプ 2本
 - フライト時のデータはほぼ無し
-  - 駐機時の[生データ](FLIGHT-raw.CSV)と[前処理後のデータ](FLIGHT-preprocessed.CSV)のみ
+  - 駐機時の[生データ](220619_1st_TF/FLIGHT-raw.CSV)と[前処理後のデータ](220619_1st_TF/FLIGHT-preprocessed.CSV)のみ
+
+## 2ndTF
+- 2022年7月10日 @笠岡
+- 滑走 4本
