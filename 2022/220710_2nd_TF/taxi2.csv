@@ -1,4 +1,4 @@
-time [ms],altitude [cm],airspeed [x0.01 m/s],angle_of_attack [x0.1 deg],airdata_pressure [hPa],airdata_temperature [degC],rotation [x0.1 rpm],rotation_voltage [0.01 V],elevator_angle,rudder_angle,trim_sign,servo_received,screen_toggle,pitch [x0.1 deg],roll [x0.1 deg],gyro_temperature [x0.01 degC],servo_voltage [x0.01 V],servo_current [x0.01 A],main_voltage [x0.01 V],temperature [x0.01 degC],pressure [x0.01 hPa],humidity [x0.01 p.c.],
+time [ms],altitude [cm],airspeed [x0.01 m/s],angle_of_attack [x0.1 deg],airdata_pressure [hPa],airdata_temperature [degC],rotation [x0.1 rpm],rotation_voltage [0.01 V],elevator_angle,rudder_angle,trim_sign,servo_received,screen_toggle,pitch [x0.1 deg],roll [x0.1 deg],gyro_temperature [x0.01 degC],servo_voltage [x0.01 V],servo_current [x0.01 A],main_voltage [x0.01 V],temperature [x0.01 degC],pressure [x0.01 hPa],humidity [x0.01 p.c.]
 2402572,73,101,386,1010,30,0,395,101,89,11,1,0,-21,19,2891,760,17,761,3134,100607,6714
 2403072,73,114,383,1010,30,0,393,101,89,11,1,0,-21,26,2905,759,19,761,3134,100604,6712
 2403572,73,119,386,1010,30,0,395,101,89,11,1,0,-31,29,2905,760,18,761,3134,100601,6710
