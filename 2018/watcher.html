@@ -1,0 +1,56 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>watcher</title>
+</head>
+
+<body>
+    <p id="Area"></p>
+
+    <script type="text/javascript">
+        var label = ["Time", "Pitch", "Yaw", "Roll", "Latitude", "Longitude", "GpsCnt", "StraightDistance", "IntegralDistance", "Elevator", "Rudder", "Trim", "Airspeed", "Cadence", "Ultsonic", "Atmopress", "Selector", "Cadencevolt", "Ultsonicvolt",
+            "servovolt"
+        ];
+        var unit = ["秒", "°", "°", "°", "", "", "", "m", "m", "°", "°", "°", "m/s", "rpm", "cm", "hPa", "", "V", "V", "V"];
+
+        function getData() {
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function() {
+                if (xmlhttp.readyState == 4) {
+                    if (xmlhttp.status == 200) {
+                        var elem = document.getElementById("output");
+                        var content = xmlhttp.responseText;
+                        var data = content.split(',');
+                        elem.innerText = "";
+                        for (var i = 0; i < 20; i++) {
+                            if (i != 12 && i != 13) {
+                                elem.innerHTML += label[i] + ": " + data[i] + "" + unit[i] + "<br>";
+                            } else {
+                                elem.innerHTML += "<h3>" + label[i] + ": " + data[i] + "" + unit[i] + "</h><br>";
+                            }
+                        }
+                    } else {
+                        alert("status = " + xmlhttp.status);
+                    }
+                }
+            }
+            xmlhttp.open("GET", "http://kubtss.php.xdomain.jp/cloudLogger/line.php");
+            xmlhttp.send();
+        }
+        setInterval('getData()', 250);
+    </script>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <font size="80">
+
+        <div id="output"></div><br><br>
+    </font>
+</body>
+
+</html>
